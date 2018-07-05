@@ -1,0 +1,50 @@
+<html>
+<title>
+</title>
+<script>
+function validate()
+{
+var pass=/^[a-zA-Z0-9\.\#]{8,16}$/;
+var name=/^[a-zA-Z]+$/;
+var e=/^[a-zA-Z]+@[a-z]+\.[a-z]{2,4}$/;
+var name=document.form1.n1.value;
+var password=document.form1.n3.value;
+var email=document.form1.n2.value;
+if(!name.match(name))
+{
+alert("only alphabets!");
+return false;
+}
+if(!password.match(pass))
+{
+alert("please enter 8-16 values!");
+return false;
+}
+
+if(!email.match(e))
+{
+alert("invalid email");
+return false;
+}
+return true;
+}
+</script>
+
+
+
+<body>
+<form method="post" name="form1" action="sum.php" onsubmit="return validate()" ><br>
+Name:
+<input type="text" name="n1" class="q1"></input><br>
+Email:
+<input type="email" name="n2" class="q2"></input><br>
+Password:
+<input type="password" name="n3" class="q3"></input><br>
+Date:
+<input type="date" name="n4" class="q4"></input><br>
+<input type="submit" name="submit"></input>
+<input type="submit" value="count" name="number"></input>
+</form>
+
+</body>
+</html>

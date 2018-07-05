@@ -1,0 +1,120 @@
+#upleft
+ { 
+   width:1500px; 
+   height:100px; 
+   background:white; float:left; 
+}
+#upright
+ { 
+   width:1500px; 
+   height:420px; 
+   background-image: url("desert.jpg");
+   float:left;
+  
+}
+#upright1 
+{ 
+   width:1500px; 
+   height:200px; 
+   background:cyan; 
+   float:left;
+}   
+ #below 
+{ 
+   height:200px; 
+   width:1500px; 
+   background:#20B2AA;
+   float:left; 
+}
+.tabs
+ {
+    width:100%;
+    display:inline-block;
+}
+.tab-links:after
+ {
+    display:block;
+    clear:both;
+    content:'';
+ }
+.tab-links li 
+{
+    margin:0px 5px;
+    float:left;
+    list-style:none; 
+}
+.tab-links a
+ {
+    padding:9px 15px;
+    display:inline-block;
+    border-radius:3px 3px 0px 0px;
+    background:#7FB5DA;
+    font-size:16px;
+    font-weight:600;
+    color:#4c4c4c;
+    transition:all linear 0.15s;
+ }
+.tab-links a:hover 
+{
+    background:#a7cce5;
+    text-decoration:none;
+}
+.tab-content 
+{
+    padding:0px;
+    border-radius:0px;
+    box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+}
+.tab 
+{
+ display:none;
+}
+#outerdiv
+{
+    width: 500px;
+    height: 500px;
+    position:relative;
+ }
+#from
+{ 
+     width: 600px;
+     height: 40px;
+     position:absolute;
+     top: 50%; right:54%;
+     margin-top: 5px;
+     margin-left: 12px;  }
+#to
+{
+     width: 600px;
+     height: 40px;
+     position:absolute;
+     top: 50%; left:50%;
+     margin-top: 5px; 
+     margin-left: 8px; 
+}
+#outer
+{
+     width: 500px;
+     height: 80px;
+     position:relative;
+ }
+#outer1
+{
+     width: 200px;
+     height: 40px;
+     position:absolute;
+     top: -8%;
+     right:54%;
+     margin-top: 5px;
+     margin-left: 12px;
+}
+#outer2
+{
+     width: 200px;
+     height: 40px;
+     position:absolute;
+     top: 50%;
+     left:220%;
+     margin-top: 5px;
+     margin-left: 8px;
+ }
